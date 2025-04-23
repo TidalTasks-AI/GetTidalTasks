@@ -30,48 +30,7 @@ TidalTasks AI is an AI-powered scheduling and productivity app tailored for high
 
 - **Settings**:
   - Configure syncing preferences, notification settings, and app themes.
-
----
-
-## Installation
-
-### Prerequisites
-- **Node.js** (v16 or later)
-- **React** (v18 or later)
-- **Vite**
-- **Next.js** (v13 or later)
-- **Firebase Project** with the following services enabled:
-  - Authentication
-  - Firestore Database
-  - Cloud Functions
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/DhairyaS450/track-ai-web.git
-   cd track-ai-web
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Set up Firebase:
-   - Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
-   - Enable required Firebase services.
-   - Download the `firebase-service-account.json` file for server-side usage.
-   - Add Firebase configuration to your environment variables.
-
-4. Start the server:
-   ```bash
-   npm run start
-   ```
-
----
-
-## Usage
-
+  
 ### Initial Setup
 1. Connect your Google account to sync tasks and events.
 2. Configure app settings, including notification preferences and study session parameters.
